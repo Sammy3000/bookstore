@@ -69,7 +69,7 @@ After you're finished please remove all the comments and instructions!
 To get a local copy up and running, follow these steps.
 
 1. Clone the Repo or Download the Zip file or `https://github.com/Sammy3000/bookstore.git`
-2. cd /math-magicians
+2. cd /bookstore
 3. Open it with the live server
 
 ### Prerequisites
