@@ -1,12 +1,12 @@
-import { createSlice, nanoid } from "@reduxjs/toolkit";
+import { createSlice, nanoid } from '@reduxjs/toolkit';
 
 const initialState = [
-  { id: "1", title: "GOT", author: "John Snow" },
-  { id: "2", title: "Breaking Bad", author: "Walter" },
-  { id: "3", title: "Ozark", author: "Matt" },
+  { id: '1', title: 'GOT', author: 'John Snow' },
+  { id: '2', title: 'Breaking Bad', author: 'Walter' },
+  { id: '3', title: 'Ozark', author: 'Matt' },
 ];
 const booksSlice = createSlice({
-  name: "books",
+  name: 'books',
   initialState,
   reducers: {
     addBook: (state, action) => {
@@ -17,9 +17,7 @@ const booksSlice = createSlice({
       };
       state.push(newBook);
     },
-    deleteBook: (state, action) => {
-      return state.filter((book) => book.id !== action.payload);
-    },
+    deleteBook: (state, action) => state.filter((book) => book.id !== action.payload),
   },
 });
 export const { addBook, deleteBook } = booksSlice.actions;

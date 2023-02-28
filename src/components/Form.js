@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { useDispatch } from "react-redux";
-import { addBook } from "../redux/books/booksSlice";
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { addBook } from '../redux/books/booksSlice';
 
 function Form() {
-  const [title, setTitle] = useState("");
-  const [author, setAuthor] = useState("");
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
   const dispatch = useDispatch();
   const onSetTitle = (event) => {
     setTitle(event.target.value);
@@ -16,13 +16,13 @@ function Form() {
     e.preventDefault();
     dispatch(
       addBook({
-        title: title,
-        author: author,
-      })
+        title,
+        author,
+      }),
     );
 
-    setTitle("");
-    setAuthor("");
+    setTitle('');
+    setAuthor('');
   };
   return (
     <div>
