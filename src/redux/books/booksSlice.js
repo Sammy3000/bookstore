@@ -1,8 +1,8 @@
-import { createSlice } from "@reduxjs/toolkit";
-import { nanoid } from "@reduxjs/toolkit";
+import { createSlice, nanoid } from '@reduxjs/toolkit';
+
 const initialState = [];
 const booksSlice = createSlice({
-  name: "books",
+  name: 'books',
   initialState,
   reducers: {
     addBook: (state, action) => {
