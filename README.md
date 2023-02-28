@@ -136,7 +136,10 @@ And For tracking linter errors in REACT files run:
 
 <!-- AUTHORS -->
 
+## Authors
+
 ## 👥 Author <a name="author"></a>
+
 
 👤 **Towett Sammy**
 
