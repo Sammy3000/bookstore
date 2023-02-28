@@ -58,17 +58,20 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- REACT js
-- HTML
-- CSS
+- ![Redux](https://img.shields.io/badge/-Redux-1d1919?style=flat&logo=redux)
+- ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
+- ![CSS3](https://img.shields.io/badge/-CSS3-000000?style=flat&logo=css3&logoColor=ffffff&labelColor=1572B6)
+- ![HTML](https://img.shields.io/badge/-HTML-000000?style=flat&logo=html)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
-1. Clone the Repo or Download the Zip file or `https://github.com/Sammy3000/bookstore.git`
-2. cd /bookstore
-3. Open it with the live server
+- Clone the Repo or Download the Zip file or `https://github.com/Sammy3000/bookstore.git`
+- cd /bookstore
+- `npm install` To download all the dependancies of the project
+- Use `npm start` to run the app in your browser
 
 ### Prerequisites
 
@@ -178,8 +181,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank Microverse for granting me the knowledge to do this.
-- Thanks to My coding Partner.
+- Thanks [Zeplin](https://app.zeplin.io/project/5b35a9e13227086040f8eb75/screen/5b695e29bb8c844f118f9378) for the template design.
 - Thanks to My Morning-session-group and Standup-team Partners.
 - Thanks to Code Reviewers
 
