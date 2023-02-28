@@ -147,6 +147,19 @@ And For tracking linter errors in REACT files run:
 - Twitter: [@towettsam](https://twitter.com/sammy15375658)
 - LinkedIn: [@towettSammy](https://www.linkedin.com/in/towett-sammy-43476024a/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+>I will add the following to my project.
+
+- API **[ Form data sent to API and rendered on screen ]**
+
+
+
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
