@@ -24,10 +24,7 @@ OPTIONAL SECTIONS:
 
 After you're finished please remove all the comments and instructions!
 -->
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 <!-- TABLE OF CONTENTS -->
 
@@ -35,7 +32,6 @@ After you're finished please remove all the comments and instructions!
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
@@ -44,9 +40,7 @@ After you're finished please remove all the comments and instructions!
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -56,21 +50,25 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Bookstore <a name="about-project"></a>
 
-- By building this application, you learn how to use React and Redux in the context of a real application.
+- "Bookstore" is a simple website built with `REACT` and `REDUX` that displays a list of books from an API and allows you to add and remove books in the API store.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- REACT js
-- HTML
-- CSS
+- ![Redux](https://img.shields.io/badge/-Redux-1d1919?style=flat&logo=redux)
+- ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
+- ![CSS3](https://img.shields.io/badge/-CSS3-000000?style=flat&logo=css3&logoColor=ffffff&labelColor=1572B6)
+- ![HTML](https://img.shields.io/badge/-HTML-000000?style=flat&logo=html)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
-1. Clone the Repo or Download the Zip file or `https://github.com/Sammy3000/bookstore.git`
-2. cd /bookstore
-3. Open it with the live server
+- Clone the Repo or Download the Zip file or `https://github.com/Sammy3000/bookstore.git`
+- cd /bookstore
+- `npm install` To download all the dependancies of the project
+- Use `npm start` to run the app in your browser
 
 ### Prerequisites
 
@@ -112,8 +110,6 @@ Install this project with:
 
 - to install locally run git clone `https://github.com/Sammy3000/bookstore.git`
 - open the cloned directory with VSCode
-- Install live server extension for VSCode
-- Right click on the index.html and select open with live servers
 
 ### Run tests
 
@@ -140,13 +136,29 @@ And For tracking linter errors in REACT files run:
 
 <!-- AUTHORS -->
 
+## Authors
+
 ## 👥 Author <a name="author"></a>
+
 
 👤 **Towett Sammy**
 
 - GitHub: [@sam](https://github.com/Sammy3000)
 - Twitter: [@towettsam](https://twitter.com/sammy15375658)
 - LinkedIn: [@towettSammy](https://www.linkedin.com/in/towett-sammy-43476024a/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+>I will add the following to my project.
+
+- API **[ Form data sent to API and rendered on screen ]**
+
+
+
 
 <!-- CONTRIBUTING -->
 
@@ -166,8 +178,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank Microverse for granting me the knowledge to do this.
-- Thanks to My coding Partner.
+- Thanks [Zeplin](https://app.zeplin.io/project/5b35a9e13227086040f8eb75/screen/5b695e29bb8c844f118f9378) for the template design.
 - Thanks to My Morning-session-group and Standup-team Partners.
 - Thanks to Code Reviewers
 
