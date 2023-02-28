@@ -20,6 +20,7 @@ function Form() {
         author: author,
       })
     );
+
     setTitle("");
     setAuthor("");
   };
@@ -31,12 +32,14 @@ function Form() {
           value={title}
           onChange={onSetTitle}
           placeholder="Book title.."
+          required
         />
         <input
           type="text"
           value={author}
           onChange={onSetAuthor}
           placeholder="Book author.."
+          required
         />
         <button type="submit">ADD BOOK</button>
       </form>
