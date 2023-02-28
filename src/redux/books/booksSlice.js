@@ -1,8 +1,12 @@
-import { createSlice, nanoid } from '@reduxjs/toolkit';
+import { createSlice, nanoid } from "@reduxjs/toolkit";
 
-const initialState = [];
+const initialState = [
+  { id: "1", title: "GOT", author: "John Snow" },
+  { id: "2", title: "Breaking Bad", author: "Walter" },
+  { id: "3", title: "Ozark", author: "Matt" },
+];
 const booksSlice = createSlice({
-  name: 'books',
+  name: "books",
   initialState,
   reducers: {
     addBook: (state, action) => {

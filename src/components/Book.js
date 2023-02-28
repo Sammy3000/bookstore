@@ -1,23 +1,21 @@
-import React from 'react';
+import React from "react";
+import { useSelector } from "react-redux";
 
 function Book() {
+  const storedBooks = useSelector((state) => state.books);
   return (
-    <div>
-      <ul>
-        <li>
-          <h2>Dune</h2>
-          <span>Frank Herbert</span>
-          <br />
-          <button type="button">Delete</button>
-        </li>
-        <li>
-          <h2>Hunger Games</h2>
-          <span>Suzanne Collins</span>
-          <br />
-          <button type="button">Delete</button>
-        </li>
-      </ul>
-    </div>
+    <ul>
+      {storedBooks.map((storedBook) => {
+        return (
+          <li key={storedBook.id}>
+            <h2>{storedBook.title}</h2>
+            <span>{storedBook.author}</span>
+            <br />
+            <button type="button">Delete</button>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
 
