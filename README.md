@@ -24,10 +24,7 @@ OPTIONAL SECTIONS:
 
 After you're finished please remove all the comments and instructions!
 -->
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 <!-- TABLE OF CONTENTS -->
 
