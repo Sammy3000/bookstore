@@ -35,7 +35,6 @@ After you're finished please remove all the comments and instructions!
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
@@ -54,7 +53,8 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Bookstore <a name="about-project"></a>
 
-- By building this application, you learn how to use React and Redux in the context of a real application.
+- "Bookstore" is a simple website built with `REACT` and `REDUX` that displays a list of books from an API and allows you to add and remove books in the API store.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
