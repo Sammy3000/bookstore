@@ -44,9 +44,7 @@ After you're finished please remove all the comments and instructions!
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -112,8 +110,6 @@ Install this project with:
 
 - to install locally run git clone `https://github.com/Sammy3000/bookstore.git`
 - open the cloned directory with VSCode
-- Install live server extension for VSCode
-- Right click on the index.html and select open with live servers
 
 ### Run tests
 
