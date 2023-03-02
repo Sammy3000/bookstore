@@ -9,12 +9,15 @@
   border: solid 1px #fff;
   background-color: #fff;
 }
+
 .displayBook:hover {
   border: 1px solid lightblue;
 }
+
 .left-side {
   width: 50%;
 }
+
 .right-side {
   width: 50%;
   padding: 0 5rem 0 10rem;
@@ -28,26 +31,31 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
 }
+
 .book-title {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   font-size: 1.5rem;
 }
+
 .book-author {
   color: #4386bf;
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .actions {
   display: flex;
   gap: 1rem;
   padding-bottom: 1rem;
 }
+
 .comments {
   color: #4386bf;
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .delete-btn {
   color: #4386bf;
   font-size: 1rem;
@@ -57,18 +65,22 @@
   background-color: transparent;
   cursor: pointer;
 }
+
 .delete-btn:hover {
   text-decoration: underline;
 }
+
 .edit {
   color: #4386bf;
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .complete-graph {
   display: flex;
   gap: 1rem;
 }
+
 .oval {
   border-radius: 50%;
   width: 4.25rem;
@@ -78,33 +90,39 @@
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
 .complete-percent {
   display: flex;
   flex-direction: column;
 }
+
 .percentage {
   color: black;
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
 }
+
 .completed {
   color: rgb(0, 0, 0, 0.5);
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .current-chapter {
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   color: rgb(10, 10, 10, 0.4);
 }
+
 .chapter-name {
   color: rgb(10, 10, 10, 0.8);
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .chapter-btn {
   background-color: #0290ff;
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;

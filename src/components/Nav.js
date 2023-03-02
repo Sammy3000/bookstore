@@ -11,7 +11,7 @@ function Nav() {
         <Link to="categories">Categories</Link>
       </div>
       <div className="logo">
-        <ion-icon name="person-sharp" />
+        <ion-icon className="ion" name="person-sharp" />
       </div>
     </nav>
   );

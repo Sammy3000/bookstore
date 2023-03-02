@@ -25,13 +25,12 @@ nav {
   font-size: 1rem;
   line-height: 6rem;
 }
+
 .logo {
   background-color: white;
   padding: 0.8rem;
   border: 1px solid lightgray;
   border-radius: 30px;
   cursor: pointer;
-}
-ion-icon {
   color: #4386bf;
 }

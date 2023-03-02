@@ -3,6 +3,7 @@ form {
   gap: 1rem;
   padding: 0 2.5rem 3.5rem;
 }
+
 .form-header {
   width: 10.875rem;
   height: 2.5rem;
@@ -15,6 +16,7 @@ form {
   letter-spacing: -0.18px;
   color: #888;
 }
+
 input {
   width: 35rem;
   height: 2.5rem;
@@ -24,6 +26,7 @@ input {
   border: solid 1px lightgray;
   background-color: #fff;
 }
+
 .submit-btn {
   width: 14rem;
   height: 2.813rem;
@@ -35,6 +38,7 @@ input {
   color: #fff;
   cursor: pointer;
 }
+
 ::placeholder {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
