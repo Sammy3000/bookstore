@@ -19,10 +19,8 @@ export const postBooks = createAsyncThunk(
         ...payload,
         item_id: nanoid(),
       });
-      console.log(response.data);
       return response.data;
     } catch (error) {
-      console.log(error);
       return thunkApi.rejectWithValue(
         error.data.message || "something went wrong"
       );
@@ -62,6 +60,8 @@ const booksSlice = createSlice({
     builder.addCase(getBooks.fulfilled, (state, action) => {
       const formattedBooksArr = [];
       const resObj = action.payload;
+
+      // eslint-disable-next-line no-restricted-syntax, guard-for-in
       for (const key in resObj) {
         const itemObj = resObj[key][0];
         itemObj.item_id = key;
