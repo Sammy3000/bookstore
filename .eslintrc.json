@@ -23,7 +23,19 @@
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "no-shadow": "off",
-    "react/prop-types": "off"
+    "quotes": "off",
+    "comma-dangle": "off",
+    "object-curly-newline": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "linebreak-style": "off",
+    "react/prop-types": "off",
+    "no-unneeded-ternary": "off",
+    "no-confusing-arrow": "off",
+    "implicit-arrow-linebreak": "off",
+    "react/jsx-curly-newline": "off",
+    "import/no-extraneous-dependencies": "off",
+    "operator-linebreak": "off",
+    "no-param-reassign": "off"
   },
   "ignorePatterns": ["dist/", "build/"]
 }
