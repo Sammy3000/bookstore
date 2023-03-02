@@ -19,6 +19,7 @@ export const postBooks = createAsyncThunk(
         ...payload,
         item_id: nanoid(),
       });
+
       return response.data;
     } catch (error) {
       return thunkApi.rejectWithValue(
@@ -43,7 +44,7 @@ const booksSlice = createSlice({
   name: "books",
   initialState,
   reducers: {
-    addBook: (action) => {
+    addBook: (state, action) => {
       newBook = {
         item_id: nanoid(),
         title: action.payload.title,
