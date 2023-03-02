@@ -5,13 +5,13 @@ import DisplayBook from "./DisplayBook";
 
 function Book() {
   const dispatch = useDispatch();
-  const storedBooks = useSelector((state) => state.books.books);
+  const { books } = useSelector((state) => state.books);
   useEffect(() => {
     dispatch(getBooks());
   }, [dispatch]);
   return (
     <ul>
-      {storedBooks.map((storedBook) => (
+      {books.map((storedBook) => (
         <DisplayBook
           key={storedBook.item_id}
           id={storedBook.item_id}

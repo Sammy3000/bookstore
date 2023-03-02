@@ -19,6 +19,7 @@ export const postBooks = createAsyncThunk(
         ...payload,
         item_id: nanoid(),
       });
+      console.log(response.data);
       return response.data;
     } catch (error) {
       console.log(error);
@@ -34,28 +35,31 @@ export const deleteBooks = createAsyncThunk("books/deleteBooks", async (id) => {
   const response = await axios.delete(`${BASE_URL}/books/${id}`);
   return response.data;
 });
+
 const initialState = {
   books: [],
   successfullyAddedItem: false,
 };
+let newBook;
 const booksSlice = createSlice({
   name: "books",
   initialState,
   reducers: {
-    addBook: (state, action) => {
-      const newBook = {
-        id: nanoid(),
+    addBook: (action) => {
+      newBook = {
+        item_id: nanoid(),
         title: action.payload.title,
         author: action.payload.author,
       };
-      state.push(newBook);
     },
-    deleteBooks: (state, action) =>
-      state.books.filter((book) => book.item_id !== action.payload),
+    removeBook: (state, action) => {
+      state.books = state.books.filter(
+        (book) => book.item_id !== action.payload
+      );
+    },
   },
   extraReducers: (builder) => {
     builder.addCase(getBooks.fulfilled, (state, action) => {
-      // sdjkd,
       const formattedBooksArr = [];
       const resObj = action.payload;
       for (const key in resObj) {
@@ -66,18 +70,15 @@ const booksSlice = createSlice({
       state.books = formattedBooksArr;
     });
     builder
-      .addCase(postBooks.fulfilled, (state, action) => {
-        console.log("Check post data", action.payload);
+      .addCase(postBooks.fulfilled, (state) => {
         state.successfullyAddedItem = true;
-        setTimeout(() => {
-          state.successfullyAddedItem = false;
-        }, 2000);
+        state.books.push(newBook);
       })
-      .addCase(postBooks.rejected, (state, action) => {
-        console.log("post error", action.payload);
+      .addCase(postBooks.rejected, (state) => {
+        state.successfullyAddedItem = false;
       });
   },
 });
 
-export const { addBook } = booksSlice.actions;
+export const { addBook, removeBook } = booksSlice.actions;
 export default booksSlice.reducer;
