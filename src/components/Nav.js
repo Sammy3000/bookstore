@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './styles/Nav.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./styles/Nav.css";
 
 function Nav() {
   return (
@@ -10,7 +10,9 @@ function Nav() {
         <Link to="/">Books</Link>
         <Link to="categories">Categories</Link>
       </div>
-      <div className="logo">avatar</div>
+      <div className="logo">
+        <ion-icon name="person-sharp" />
+      </div>
     </nav>
   );
 }
