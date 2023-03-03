@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addBook, postBooks } from "../redux/books/booksSlice";
+import "./styles/Form.css";
 
 function Form() {
   const [title, setTitle] = useState("");
@@ -34,6 +35,7 @@ function Form() {
   };
   return (
     <div>
+      <span className="form-header">ADD NEW BOOK</span>
       <form onSubmit={onFormSubmit}>
         <input
           type="text"
@@ -49,7 +51,9 @@ function Form() {
           placeholder="Book author.."
           required
         />
-        <button type="submit">ADD BOOK</button>
+        <button className="submit-btn" type="submit">
+          ADD BOOK
+        </button>
       </form>
     </div>
   );
