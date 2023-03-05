@@ -87,9 +87,7 @@ In order to run this project you need:
  <!-- LIVE DEMO -->
 
 ### LIVE DEMO
-
-- Coming soon
-<!-- - See it live by clicking [Live Demo Link]() -->
+ [Live Demo Link](https://sammy-bookstore.onrender.com/)
 
 ### Setup
 
