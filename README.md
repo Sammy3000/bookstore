@@ -24,6 +24,7 @@ OPTIONAL SECTIONS:
 
 After you're finished please remove all the comments and instructions!
 -->
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 <!-- TABLE OF CONTENTS -->
@@ -52,6 +53,9 @@ After you're finished please remove all the comments and instructions!
 
 - "Bookstore" is a simple website built with `REACT` and `REDUX` that displays a list of books from an API and allows you to add and remove books in the API store.
 
+## Screenshot
+
+![](./src/assets/bookstorePic.PNG)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -139,7 +143,6 @@ And For tracking linter errors in REACT files run:
 ## Authors
 
 ## 👥 Author <a name="author"></a>
-
 
 👤 **Towett Sammy**
 
